@@ -1,0 +1,8 @@
+# Dependências para execução interativa do notebook.
+# Versões exatas do ambiente histórico ainda não foram congeladas.
+numpy
+pandas
+matplotlib
+scikit-learn
+notebook
+ipykernel
