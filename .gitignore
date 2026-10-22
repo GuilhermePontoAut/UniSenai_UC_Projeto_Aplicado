@@ -1,0 +1,47 @@
+# Python/Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ESP-IDF: binários e dependências de build
+build/
+sdkconfig.old
+managed_components/
+*.elf
+*.map
+*.bin
+*.o
+*.a
+
+# Dados UCI devem ser baixados da fonte original
+data/
+condition monitoring of hydraulic systems.zip
+profile.txt
+PS*.txt
+TS*.txt
+FS*.txt
+VS*.txt
+EPS*.txt
+CE.txt
+CP.txt
+SE.txt
+
+# Artefatos locais, temporários e confidenciais
+.vscode/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.log
+*.tmp
+*~
