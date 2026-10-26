@@ -6,6 +6,7 @@
 - `README.md`, `requirements.txt` e `.gitignore`.
 - Documentação do dataset e do processo experimental.
 - `docs/AMBIENTE_PYTHON_ORIGINAL.md`: inventário do Ubuntu 22.04.5, Python 3.10.12, pacotes científicos do APT e componentes Jupyter observados no ambiente do pesquisador. A reconstrução desse ambiente em uma instalação limpa ainda não foi validada.
+- `docs/VALIDACAO_REEXECUCAO_2026-10-26.md`: auditoria do arquivo `Algoritmo_reproducao.ipynb` executado no Ubuntu do pesquisador (85 células com código executadas, nenhum erro registrado, resultados principais reproduzidos).
 
 ## Projetos embarcados publicados e validação pendente
 
