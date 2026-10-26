@@ -48,3 +48,8 @@ SE.txt
 
 # Logs de reproducao local
 artefatos_reproducao/
+
+# Artefatos locais gerados na reproducao do notebook
+notebooks/Algoritmo_reproducao.ipynb
+condition monitoring of hydraulic systems/
+exportacao_esp32/
