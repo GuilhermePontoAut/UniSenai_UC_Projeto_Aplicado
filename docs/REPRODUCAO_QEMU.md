@@ -17,7 +17,7 @@ Este diretório documenta como compilar e executar **os dois projetos ESP-IDF or
 - **ESP-IDF v6.1** para alvo `esp32s3` (ambos `sdkconfig` registram `CONFIG_IDF_INIT_VERSION="6.1.0"`).
 - **Fork da Espressif do QEMU Xtensa**, com suporte a ESP32-S3, instalado via `idf_tools.py`.
 - Linux: biblioteca dinâmica `libslirp0` e demais dependências do QEMU.
-- A versão de QEMU relatada no histórico experimental foi **9.2.2**. As versões do pacote de QEMU instalado posteriormente podem diferir; registre `qemu-system-xtensa --version`.
+- **Versões verificadas na reexecução de 26/10/2026 (Ubuntu do pesquisador):** `ESP-IDF v6.1`; `QEMU emulator version 9.2.2 (esp_develop_9.2.2_20260417)`. A revisão exata do ESP-IDF além de `v6.1` não foi registrada. Em outras instalações, registre `idf.py --version` e `qemu-system-xtensa --version` para interpretar eventuais diferenças.
 
 Exemplo de instalação em Ubuntu/Debian. Adapte caso o ESP-IDF já esteja instalado:
 
