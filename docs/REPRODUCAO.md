@@ -1,5 +1,7 @@
 # Reproduzindo os experimentos em Python
 
+Para reproduzir os experimentos **em outro computador**, comece pelo [guia completo para pesquisadores externos](GUIA_REPRODUCAO_TERCEIROS.md).
+
 ## O que este repositório reproduz
 
 O notebook contém as etapas experimentais desde o carregamento dos sinais até os testes reservados e a auditoria metodológica, incluindo geração de parâmetros FP32 e INT8 e compilação/verificação de código C++ no computador.
