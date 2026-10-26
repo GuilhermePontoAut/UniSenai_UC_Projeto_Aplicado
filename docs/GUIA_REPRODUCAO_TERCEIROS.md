@@ -41,6 +41,7 @@ Versões originais: NumPy **1.21.5**, Pandas **1.3.5**, Scikit-learn **0.23.2**,
 ### 2. Obter o repositório
 
 ```bash
+cd ~
 git clone https://github.com/GuilhermePontoAut/UniSenai_UC_Projeto_Aplicado.git
 cd UniSenai_UC_Projeto_Aplicado
 git rev-parse --short HEAD
