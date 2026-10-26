@@ -60,7 +60,13 @@ cp "/CAMINHO/DO/ARQUIVO_BAIXADO.zip" "notebooks/condition monitoring of hydrauli
 unzip -t "notebooks/condition monitoring of hydraulic systems.zip" | tail -1
 ```
 
-O teste de integridade deve terminar sem erros. **Não suba o ZIP nem os arquivos de sinais ao GitHub**; são dados obtidos de fonte pública separadamente.
+O teste de integridade deve terminar sem erros. O notebook espera que o ZIP contenha o diretório interno `condition monitoring of hydraulic systems/` e o arquivo `condition monitoring of hydraulic systems/profile.txt`. Confira a estrutura com:
+
+```bash
+unzip -Z1 "notebooks/condition monitoring of hydraulic systems.zip" | grep -m 1 "condition monitoring of hydraulic systems/profile.txt"
+```
+
+Se a estrutura interna ou o nome do ZIP forem diferentes, registre a diferença antes de executar: a célula de leitura dos dados usa esse caminho relativo fixo. **Não suba o ZIP nem os arquivos de sinais ao GitHub**; são dados obtidos de fonte pública separadamente.
 
 ### 4. Reexecutar sem modificar o notebook original
 
