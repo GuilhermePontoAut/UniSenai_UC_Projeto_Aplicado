@@ -9,10 +9,11 @@ Os projetos originais ESP-IDF FP32 e INT8 estão publicados em `firmware/`. Para
 ## 1. Pré-requisitos
 
 - Linux, Python 3 e ambiente de notebook Jupyter.
-- Bibliotecas listadas em `requirements.txt`.
+- Para aproximar o ambiente original, consulte primeiro [AMBIENTE_PYTHON_ORIGINAL.md](AMBIENTE_PYTHON_ORIGINAL.md): Ubuntu 22.04.5 LTS, pacotes científicos APT e kernel Jupyter do usuário.
+- O `requirements.txt` lista dependências sem fixar versões; não é um arquivo de reprodução estrita.
 - Compilador `g++` disponível para os testes nativos em C++.
 
-**Atenção:** o kernel registrado no notebook original utiliza Python 3.10.12. A instalação das dependências mais recentes pode produzir resultados ou APIs diferentes das versões utilizadas durante o estudo. Consulte os requisitos específicos do projeto antes de reivindicar reprodução exata.
+**Atenção:** o kernel original utiliza Python 3.10.12 com NumPy 1.21.5, Pandas 1.3.5, Scikit-learn 0.23.2, SciPy 1.8.0 e Matplotlib 3.5.1, instalados como pacotes da distribuição Ubuntu. O `ipykernel` 6.29.5 e o `jupyter_client` 8.6.3 estão em `~/.local`; o pacote `notebook` não foi encontrado nesse interpretador. Consulte o inventário para versões dos pacotes APT e limitações.
 
 ## 2. Dados
 
@@ -27,19 +28,13 @@ ZIP_PATH = DATA_DIR / "condition monitoring of hydraulic systems.zip"
 
 Portanto, preserve o nome `condition monitoring of hydraulic systems.zip` no **diretório de trabalho do kernel** (a pasta `notebooks/` ao seguir o comando abaixo). O código extrai os arquivos do ZIP e lê `profile.txt` e os arquivos dos sensores.
 
-## 3. Instalação e abertura
+## 3. Ambiente e abertura
 
-Na raiz do repositório:
+Para aproximar o ambiente original, use Ubuntu 22.04, bibliotecas científicas via APT e as versões registradas em [AMBIENTE_PYTHON_ORIGINAL.md](AMBIENTE_PYTHON_ORIGINAL.md). **Essa etapa ainda não foi validada em instalação limpa e o APT atual pode fornecer atualizações diferentes.**
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-cd notebooks
-jupyter notebook Algoritmo.ipynb
-```
+Abra `notebooks/Algoritmo.ipynb` no VS Code com o interpretador correto (no ambiente original, `/usr/bin/python3` e `ipykernel` disponível em `~/.local`). Não é necessário instalar o servidor clássico `notebook` se o VS Code já consegue executar o kernel.
 
-Copie o ZIP da UCI para `notebooks/` antes de executar a célula de carregamento. Após abrir o notebook, execute as células na sequência e inspecione eventuais diferenças entre a versão das bibliotecas e o ambiente usado originalmente.
+Como alternativa **não equivalente ao ambiente histórico**, um ambiente virtual com `pip install -r requirements.txt` pode ajudar a explorar o notebook, mas não deve ser usado para alegar reprodução exata. Copie o ZIP da UCI para `notebooks/` antes de executar as células em sequência; registre quaisquer diferenças de resultado.
 
 ## 4. Saídas e verificação
 
