@@ -1,8 +1,10 @@
-# Dependências para execução interativa do notebook.
-# Versões exatas do ambiente histórico ainda não foram congeladas.
+# Dependências nominais para exploração em um ambiente alternativo.
+# NÃO é o ambiente histórico, que usa pacotes do Ubuntu APT.
+# Versões não congeladas: consultar docs/AMBIENTE_PYTHON_ORIGINAL.md.
 numpy
 pandas
-matplotlib
+scipy
 scikit-learn
+matplotlib
 notebook
 ipykernel
