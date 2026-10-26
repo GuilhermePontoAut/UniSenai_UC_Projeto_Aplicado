@@ -19,6 +19,7 @@ Dataset público: [Condition Monitoring of Hydraulic Systems — UCI](https://ar
 - `notebooks/Algoritmo.ipynb` — versão mais recente disponibilizada pelo pesquisador como `Algoritmo(10).ipynb`, com experimentos e auditorias.
 - `docs/REPRODUCAO.md` — dados e orientações de execução.
 - `docs/AMBIENTE_PYTHON_ORIGINAL.md` — versões observadas do Ubuntu, Python, APT e Jupyter usadas nos experimentos.
+- `docs/VALIDACAO_REEXECUCAO_2026-10-26.md` — auditoria da reexecução do notebook e das verificações funcionais no QEMU.
 - `docs/ESTRUTURA_E_STATUS.md` — código publicado e materiais ainda pendentes.
 - `requirements.txt` — bibliotecas Python envolvidas nos experimentos.
 
