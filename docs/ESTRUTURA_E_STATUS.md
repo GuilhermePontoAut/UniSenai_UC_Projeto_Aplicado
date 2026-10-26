@@ -6,16 +6,16 @@
 - `README.md`, `requirements.txt` e `.gitignore`.
 - Documentação do dataset e do processo experimental.
 
-## Ainda necessário para reprodução embarcada completa
+## Projetos embarcados publicados e validação pendente
 
-- Projeto ESP-IDF FP32 original: `CMakeLists.txt`, `main/`, `sdkconfig` aplicável e outros fontes usados na compilação do QEMU.
-- Projeto ESP-IDF INT8 original: mesmos tipos de arquivos.
-- Parâmetros e dados de teste gerados pelo notebook, quando necessários para compilar os firmwares.
-- Registro das opções efetivas de build e instruções do QEMU conforme ambiente realmente utilizado.
+- Projeto ESP-IDF FP32 original incluído em `firmware/mlp_esp32s3/`.
+- Projeto ESP-IDF INT8 original incluído em `firmware/mlp_esp32s3_int8/`.
+- Parâmetros e amostras de verificação necessários já estão nos cabeçalhos C++ versionados.
+- `docs/REPRODUCAO_QEMU.md` documenta opções, comandos, diferenças de configuração e limites. Falta validar o processo inteiro em ambiente limpo.
 
 **Importante:** não incluir `build/`, arquivos pessoais, dados do dataset nem credenciais no repositório.
 
-Os códigos para execução no ESP32-S3 emulado não podem ser apresentados como já publicados enquanto seus arquivos reais não estiverem presentes.
+Os códigos originais já estão publicados, porém a execução integral ainda deve ser repetida independentemente em um ambiente limpo com ESP-IDF e QEMU.
 
 ## Histórico do notebook
 

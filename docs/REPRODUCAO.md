@@ -4,7 +4,7 @@
 
 O notebook contém as etapas experimentais desde o carregamento dos sinais até os testes reservados e a auditoria metodológica, incluindo geração de parâmetros FP32 e INT8 e compilação/verificação de código C++ no computador.
 
-Os projetos ESP-IDF efetivamente compilados e executados no ESP32-S3/QEMU **ainda não foram publicados** nesta versão. Portanto, a reprodução do firmware emulado **não está completa** apenas com os arquivos presentes neste repositório.
+Os projetos originais ESP-IDF FP32 e INT8 estão publicados em `firmware/`. Para a execução no ESP32-S3 emulado, siga [REPRODUCAO_QEMU.md](REPRODUCAO_QEMU.md). A reprodução independente em ambiente limpo e o congelamento completo das dependências Python permanecem etapas a verificar.
 
 ## 1. Pré-requisitos
 
@@ -53,7 +53,7 @@ Ao interpretar o estudo, preserve as distinções entre:
 
 ## 5. QEMU / ESP-IDF
 
-A versão relatada utilizou ESP-IDF v6.1 e ESP32-S3 emulado. Para reproduzir as verificações de firmware, será necessário acrescentar os **fontes originais** dos projetos FP32 e INT8 e documentar sua configuração de compilação e seus comandos de execução. Não substitua esses projetos por versões inferidas a partir do notebook sem registrar a diferença.
+A versão relatada utilizou ESP-IDF v6.1 e ESP32-S3 emulado. Os fontes originais FP32 e INT8 encontram-se em `firmware/`; consulte [REPRODUCAO_QEMU.md](REPRODUCAO_QEMU.md) para comandos, configuração e limitações. Os arquivos foram copiados diretamente dos projetos originais, sem reconstruí-los a partir do notebook.
 
 ## 6. Ética de reprodução e limites
 

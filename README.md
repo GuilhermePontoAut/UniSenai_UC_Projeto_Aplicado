@@ -3,7 +3,7 @@
 
 Repositório do projeto aplicado UniSENAI sobre a viabilidade de redes neurais compactas para diagnóstico de condições de sistemas hidráulicos em **Edge AI**.
 
-> **Pesquisa em desenvolvimento.** Esta disponibilização inclui o notebook experimental. Os projetos originais **ESP-IDF FP32 e INT8 executados no QEMU** ainda não foram adicionados ao repositório.
+> **Pesquisa em desenvolvimento.** Esta disponibilização inclui o notebook experimental. Os projetos originais **ESP-IDF FP32 e INT8 para ESP32-S3/QEMU** estão disponíveis em `firmware/`. Consulte [Reprodução no QEMU](docs/REPRODUCAO_QEMU.md) para os passos e limitações.
 
 ## Objetivo e dados
 
@@ -54,7 +54,7 @@ Os projetos C++ foram compilados com ESP-IDF v6.1 e executados em **ESP32-S3 emu
 
 ### Trabalhos futuros
 
-Como continuidade, propõe-se disponibilizar os projetos ESP-IDF originais, integrar a aquisição e o pré-processamento dos sinais no ESP32-S3 e avaliar memória, latência, consumo de energia e estabilidade em placa física. Também é importante investigar a generalização em outras condições operacionais.
+Como continuidade, propõe-se integrar a aquisição e o pré-processamento dos sinais no ESP32-S3 e avaliar memória, latência, consumo de energia e estabilidade em placa física. Também é importante investigar a generalização em outras condições operacionais.
 
 ## Como reproduzir
 

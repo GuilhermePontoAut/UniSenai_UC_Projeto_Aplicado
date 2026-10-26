@@ -45,3 +45,6 @@ SE.txt
 *.log
 *.tmp
 *~
+
+# Logs de reproducao local
+artefatos_reproducao/

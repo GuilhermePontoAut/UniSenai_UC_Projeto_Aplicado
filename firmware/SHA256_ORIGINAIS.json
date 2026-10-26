@@ -1,0 +1,21 @@
+{
+  "arquivo_enviado_sha256": "a217d892af69634e959d532c7731426dad72bf082e774d0016d0196828a3e7b6",
+  "arquivos_originais": {
+    "firmware/mlp_esp32s3/CMakeLists.txt": "5df271e4d0dd84f1d4765b274c6d53179cf33ca3f9c5eb5d21de69d88310d721",
+    "firmware/mlp_esp32s3/sdkconfig": "6c90bd8e99ef899793db7a70f29d4b0770c23862d3aa138b708d194b69e188e7",
+    "firmware/mlp_esp32s3/main/CMakeLists.txt": "97c71fd148d84fe9ac9d8ded452bb1c56c0e7cfc4c82c0cc303320cdfb9af22f",
+    "firmware/mlp_esp32s3/main/main.cpp": "c469dcdfbebb520c6462a43f509c4ee9d9050ffe0b7a9d5b7393181375b33d77",
+    "firmware/mlp_esp32s3/main/bomba_fp32.h": "c3bafef54e239b950050ff680d81156324f4f987e3a099df46d39c70df713e1a",
+    "firmware/mlp_esp32s3/main/acumulador_fp32.h": "4e804b1fe7dc503ffad4a000242499952080632ce791770ff0dfd9d9e6a728ab",
+    "firmware/mlp_esp32s3/main/bomba_int8.h": "8e31d9940c72debd4823871d00e2ddf68f8e58fb009ef6a92a03ec73cd91909e",
+    "firmware/mlp_esp32s3/main/acumulador_int8.h": "9b12d559ac6398c74e46f4c088e0dc558ba8d20069d37177d2985e13168b0517",
+    "firmware/mlp_esp32s3/main/amostras_esp32.h": "f3ccab9e191f2ec4c44fa3cb0f091165e83b0e70b0be601fe842b4605f1a8f69",
+    "firmware/mlp_esp32s3_int8/CMakeLists.txt": "4ffcc8ee63b45d3bd407cfd2d4edc1ec7af1766c5fad0a75d868a6a30703629a",
+    "firmware/mlp_esp32s3_int8/sdkconfig": "15607c6fd88332fbfe2e6e62036b152477382a6df54f9d97926755d38f14a335",
+    "firmware/mlp_esp32s3_int8/main/CMakeLists.txt": "97c71fd148d84fe9ac9d8ded452bb1c56c0e7cfc4c82c0cc303320cdfb9af22f",
+    "firmware/mlp_esp32s3_int8/main/main.cpp": "59ae61e3d0dc856e3a4cad2954d6101f4c60ce01d85b22b40f4de2da91516f2e",
+    "firmware/mlp_esp32s3_int8/main/bomba_int8.h": "8e31d9940c72debd4823871d00e2ddf68f8e58fb009ef6a92a03ec73cd91909e",
+    "firmware/mlp_esp32s3_int8/main/acumulador_int8.h": "9b12d559ac6398c74e46f4c088e0dc558ba8d20069d37177d2985e13168b0517",
+    "firmware/mlp_esp32s3_int8/main/amostras_esp32.h": "f3ccab9e191f2ec4c44fa3cb0f091165e83b0e70b0be601fe842b4605f1a8f69"
+  }
+}
