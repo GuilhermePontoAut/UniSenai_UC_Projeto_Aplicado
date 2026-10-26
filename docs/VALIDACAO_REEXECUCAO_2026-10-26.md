@@ -1,6 +1,6 @@
 # Verificação de reexecução do notebook — 2026-10-26
 
-Esta verificação foi feita sobre o arquivo `Algoritmo_reproducao.ipynb`, cópia do notebook publicada e executada pelo pesquisador no ambiente original Ubuntu. Não equivale a uma reprodução independente em uma máquina limpa.
+Esta verificação foi feita sobre o arquivo `Algoritmo_reproducao.ipynb`, cópia local do notebook publicado, executada pelo pesquisador no ambiente original Ubuntu. Não equivale a uma reprodução independente em uma máquina limpa.
 
 ## Inspeção do arquivo reexecutado
 
