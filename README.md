@@ -17,7 +17,8 @@ Dataset público: [Condition Monitoring of Hydraulic Systems — UCI](https://ar
 ## Organização
 
 - `notebooks/Algoritmo.ipynb` — versão mais recente disponibilizada pelo pesquisador como `Algoritmo(10).ipynb`, com experimentos e auditorias.
-- `docs/REPRODUCAO.md` — dados, ambiente e orientações de execução.
+- `docs/REPRODUCAO.md` — dados e orientações de execução.
+- `docs/AMBIENTE_PYTHON_ORIGINAL.md` — versões observadas do Ubuntu, Python, APT e Jupyter usadas nos experimentos.
 - `docs/ESTRUTURA_E_STATUS.md` — código publicado e materiais ainda pendentes.
 - `requirements.txt` — bibliotecas Python envolvidas nos experimentos.
 
@@ -58,7 +59,7 @@ Como continuidade, propõe-se integrar a aquisição e o pré-processamento dos 
 
 ## Como reproduzir
 
-Consulte [docs/REPRODUCAO.md](docs/REPRODUCAO.md). O dataset deve ser obtido do repositório oficial da UCI.
+Consulte [docs/REPRODUCAO.md](docs/REPRODUCAO.md) e o [inventário do ambiente original](docs/AMBIENTE_PYTHON_ORIGINAL.md). O dataset deve ser obtido do repositório oficial da UCI. A reprodução estrita do treinamento em um ambiente limpo ainda não foi validada.
 
 **Referência:** Helwig, N.; Pignanelli, E.; Schütze, A. *Condition Monitoring of Hydraulic Systems*. UCI Machine Learning Repository. DOI: [10.24432/C5CW21](https://doi.org/10.24432/C5CW21).
 
